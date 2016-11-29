@@ -1,0 +1,28 @@
+{
+  "name": "snapchain",
+  "version": "1.0.0",
+  "description": "Share!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js -e js,html,css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/oliverdon/snapchain-server.git"
+  },
+  "author": "Oliver Don",
+  "license": "MIT",
+  "dependencies": {
+    "gm": "^1.22.0",
+    "good": "^7.0.0",
+    "good-console": "^6.1.2",
+    "h2o2": "^5.1.0",
+    "hapi": "^15.2.0",
+    "hapi-auth-jwt2": "^7.0.0",
+    "hashwords": "^0.2.1",
+    "inert": "^4.0.0",
+    "jsonwebtoken": "^7.0.0",
+    "mongoose": "^4.5.0"
+  }
+}
